@@ -1,5 +1,6 @@
 .navbar {
-  background-color: rgb(0, 163, 238);
+  /* background-color: rgb(0, 163, 238); */
+  background-color: rgb(91, 170, 240);
   width: 100vw;
   height: 5em;
   display: flex;
@@ -16,7 +17,7 @@
 
 .right > span {
   font-size: 1.5em;
-  margin: 15px 15px;
+  margin: 20px 20px;
   text-align: center;
   width: 20px;
 }

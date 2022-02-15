@@ -1,0 +1,40 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://assets.epicurious.com/photos/59283e16ae10ad089795ebb4/4:3/w_1580,h_1185,c_limit/Somali-Beef-Stew-with-Rice-22052017.jpg");
+}
+
+.welcome-text {
+  font-size: 40pt;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(238, 236, 236); */
+  margin-left: 1em;
+  margin-top: 3em;
+}
+
+.welcome-text span {
+  margin-bottom: 10px;
+  /* background-color: rgba(187, 187, 187, 0.239); */
+  color: rgb(235, 235, 235);
+  text-shadow: rgb(0, 0, 0) -5px 3px 8px;
+  /* border-bottom: black 3px solid;
+  border-right: black 5px solid; */
+}
+
+.home-button {
+  font-size: 26pt;
+  border-radius: 10px;
+  background-color: rgb(91, 170, 240);
+  border-bottom: black 2px solid;
+  border-left: black 3px solid;
+  color: rgb(235, 235, 235);
+  width: 7em;
+  height: 1.5em;
+  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+}
+
+.home-button:hover {
+  background-color: rgb(7, 7, 7);
+}

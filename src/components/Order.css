@@ -1,0 +1,44 @@
+.order {
+  width: 100vw;
+  height: 100vh;
+}
+.order-title {
+  font-size: 32pt;
+  margin-top: 20px;
+  margin-left: 10rem;
+  text-decoration: underline;
+}
+.table-container {
+  margin-top: 5rem;
+}
+table {
+  border-collapse: collapse;
+  border: solid 2px black;
+  width: max-content;
+}
+
+th {
+  border-bottom: solid 2px black;
+  width: 20vw;
+  font-size: 22pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.order-empty {
+  width: max-content;
+  height: max-content;
+  margin-top: 10rem;
+}
+
+.order-empty-message {
+  font-size: 30pt;
+}
+.order-empty-button {
+  margin-top: 3rem;
+  font-size: 24pt;
+  background-color: rgb(91, 170, 240);
+  border-bottom: black 3px solid;
+  border-right: black 5px solid;
+  color: rgb(235, 235, 235);
+}

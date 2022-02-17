@@ -1,0 +1,34 @@
+.about-container {
+  width: 100vw;
+  height: 20vh;
+  background-image: url("https://assets.epicurious.com/photos/59283e16ae10ad089795ebb4/4:3/w_1580,h_1185,c_limit/Somali-Beef-Stew-with-Rice-22052017.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom: solid 1px black;
+}
+.about {
+  height: 80vh;
+}
+.about-info {
+  width: fit-content;
+  max-width: 70vw;
+  border: 2px solid #000000;
+  font-size: 24pt;
+  margin-top: 3rem;
+  line-height: 2em;
+  color: rgb(235, 235, 235);
+  border-radius: 5px;
+  background-color: rgb(91, 170, 240);
+  box-shadow: 10px 10px black;
+}
+
+.about-info > p {
+  margin-top: 10px;
+  text-indent: 2rem;
+  text-align: center;
+}
+
+b {
+  color: black;
+}

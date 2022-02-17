@@ -1,0 +1,59 @@
+const router = require("express").Router();
+let Product = require("../models/product.models");
+
+// creates product
+router.route("/add").post((request, response) => {
+  const newProduct = new Product({
+    name: request.body.name,
+    price: Number(request.body.price),
+    imageURL: request.body.imageURL,
+    quantity: Number(request.body.quantity),
+    total: Number(request.body.total),
+  });
+
+  newProduct
+    .save()
+    .then(() => response.json("Product added"))
+    .catch((err) => response.status(400).json("Error: " + err));
+});
+
+// gets all products
+router.route("/").get((request, response) => {
+  Product.find()
+    .then((product) => response.json(product))
+    .catch((err) => response.status(400).json("Error: " + err));
+});
+
+// gets one product
+router.route("/:id").get((request, response) => {
+  Product.findById(request.params.id)
+    .then((product) => response.json(product))
+    .catch((err) => response.status(400).json("Error: " + err));
+});
+
+// updates product
+router.route("/update/:id").post((request, response) => {
+  Product.findById(request.params.id)
+    .then((product) => {
+      product.name = request.body.name;
+      product.price = Number(request.body.price);
+      product.imageURL = request.body.imageURL;
+      product.quantity = Number(request.body.quantity);
+      product.total = Number(request.body.total);
+
+      product
+        .save()
+        .then(() => response.json("Product updated!"))
+        .catch((err) => console.log("Error " + err));
+    })
+    .catch((err) => response.status(400).json("Error: " + err));
+});
+
+// deletes product
+router.route("/delete/:id").delete((request, response) => {
+  Product.findByIdAndDelete(request.params.id)
+    .then(() => response.json("Product deleted!"))
+    .catch((err) => response.status(400).json("Error: " + err));
+});
+
+module.exports = router;

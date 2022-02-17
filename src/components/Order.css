@@ -1,0 +1,78 @@
+.order {
+  width: 100vw;
+  height: 100vh;
+}
+.order-title {
+  font-size: 32pt;
+  margin-top: 20px;
+  margin-left: 10rem;
+  text-decoration: underline;
+}
+.table-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+table {
+  border-collapse: collapse;
+  border: solid 2px black;
+  width: max-content;
+  text-align: center;
+}
+
+th {
+  border-bottom: solid 2px black;
+  width: 20vw;
+  font-size: 22pt;
+  height: 1.5em;
+  background-color: rgb(91, 170, 240);
+  color: rgb(235, 235, 235);
+  text-shadow: black 1px 1px 1px;
+}
+
+tbody {
+  font-size: 16pt;
+  margin-top: 10px;
+}
+
+.order-empty {
+  width: max-content;
+  height: max-content;
+  margin-top: 10rem;
+}
+
+.order-empty-message {
+  font-size: 30pt;
+}
+.order-empty-button {
+  margin-top: 3rem;
+  font-size: 24pt;
+  background-color: rgb(91, 170, 240);
+  border-bottom: black 3px solid;
+  border-right: black 5px solid;
+  color: rgb(235, 235, 235);
+}
+
+.table-footer {
+  border-top: solid 2px black;
+  font-size: 20pt;
+  height: 2em;
+  background-color: rgb(91, 170, 240);
+  color: rgb(235, 235, 235);
+  text-shadow: black 1px 1px 1px;
+}
+
+.place-order-button {
+  width: max-content;
+  font-size: 22pt;
+  background-color: rgb(91, 170, 240);
+  border: solid 1px black;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: rgb(235, 235, 235);
+  text-shadow: black 1px 1px 1px;
+}
+.order-confirmation {
+  margin-top: 30px;
+  font-size: 18pt;
+}

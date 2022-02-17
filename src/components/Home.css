@@ -9,18 +9,14 @@
   font-size: 40pt;
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(238, 236, 236); */
   margin-left: 1em;
   margin-top: 3em;
 }
 
 .welcome-text span {
   margin-bottom: 10px;
-  /* background-color: rgba(187, 187, 187, 0.239); */
   color: rgb(235, 235, 235);
   text-shadow: rgb(0, 0, 0) -5px 3px 8px;
-  /* border-bottom: black 3px solid;
-  border-right: black 5px solid; */
 }
 
 .home-button {

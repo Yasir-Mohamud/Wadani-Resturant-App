@@ -10,8 +10,7 @@ export default function Home() {
         <span> FRESH SOMALI CUSINE </span>
         <span> JUST A CLICK AWAY</span>
         <button className="home-button" onClick={() => navigate("/menu")}>
-          {" "}
-          ORDER NOW{" "}
+          ORDER NOW
         </button>
       </div>
     </div>

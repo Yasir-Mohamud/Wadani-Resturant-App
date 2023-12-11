@@ -8,7 +8,7 @@ Wadani is a somalia resturant app that allows users to view authentic somalia cu
 
 
 ## Installing
- 1. Clone the repo `git clone `
+ 1. Clone the repo `git clone https://github.com/Yasir-Mohamud/Wadani-Resturant-App.git `
  2. run `npm install` or `yarn install`
  3. run `yarn build` or `yarn watch`
 
@@ -21,7 +21,7 @@ There are many page/views on Wadani Resturant App including :
 5. Checkout
 
  ### Preview
-![Screenshot 2023-12-11 at 9 58 42 AM (2)](https://github.com/Yasir-Mohamud/Wadani-Resturant-App/assets/59776082/8636735a-68b6-4012-b1d3-9ad83bc05ec5
+![all views](https://github.com/Yasir-Mohamud/Wadani-Resturant-App/assets/59776082/a0feedcc-f9e2-469c-b26e-46e62ff99b96)
 
 ### Features
 1. Users can preview the menu.
